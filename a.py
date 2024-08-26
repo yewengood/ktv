@@ -139,7 +139,7 @@ for url in urls:
     except:
         continue
 channels = []
-with open("iptv.txt", 'r', encoding='utf-8') as file:
+with open("my.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         #print(line)
