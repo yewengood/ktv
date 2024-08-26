@@ -21,7 +21,7 @@ urls = [
 ]
 
 
-def modify_urls(url:
+def modify_urls(url):
     modified_urls = []
     ip_start_index = url.find("//") + 2
     ip_end_index = url.find(":", ip_start_index)
