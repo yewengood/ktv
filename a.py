@@ -12,11 +12,12 @@ eventlet.monkey_patch()
 
 ###urls城市根据自己所处的地理位置修改
 urls = [
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9Ikd1YW5nemhvdSI%3D",#广州
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9IlNoZW56aGVuIg%3D%3D",#深圳
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iR3Vhbmdkb25nIg%3D%3D",#广东
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9Ilpob25nc2hhbiI%3D",#中山
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9IlpoYW5qaWFuZyI%3D"#湛江
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyIgJiYgcG9ydD0iODg4OCI%3D",#广东8888
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyIgJiYgcG9ydD0iNDAyMiI%3D",#深圳
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyIgJiYgb3JnPSJDaGluYW5ldCI%3D",#广东
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyIgJiYgcG9ydD0iMTAwMDAi",#中山
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyIgJiYgY2l0eT0iU2hlbnpoZW4i"#湛江
+     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyIgJiYgY2l0eT0iR3Vhbmd6aG91Ig%3D%3D"#广州
 ]
 
 
