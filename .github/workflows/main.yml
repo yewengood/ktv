@@ -1,8 +1,8 @@
 name: itvlist
 
-on:
-  schedule:
-    - cron: '0 4,10,22 * * *'
+#on:
+ # schedule:
+ #   - cron: '0 4,10,22 * * *'
   push:
     branches:
       - main
