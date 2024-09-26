@@ -60,6 +60,6 @@ cat tmp1.txt tmp2.txt tmp3.txt > "txt/fofa_${city}.txt"
 rm -rf tmp1.txt tmp2.txt tmp3.txt
 rm -rf gdgd_fofa.txt
 #--------------------合并所有城市的txt文件为:   zubo_fofa.txt-----------------------------------------
-echo "📡  电信频道,#genre#" >>gdtv_fofa.txt
-cat txt/fofa_guangdian.txt >>gdtv_fofa.txt
+echo "📡  电信广电,#genre#" >>gdgd_fofa.txt
+cat txt/fofa_guangdian.txt >>gdgd_fofa.txt
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
